@@ -1,0 +1,13 @@
+{
+  "name": "Simple-Webapp",
+  "version": "1.0.0",
+  "author": "Morten Barklund <morten.barklund@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "prettier": "^2.1.1"
+  },
+  "scripts": {
+    "start": "http-server public -c-1"
+  }
+}

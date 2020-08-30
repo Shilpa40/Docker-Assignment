@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simplest possible Vue app in a single file</title>
+    <meta name="description" content="This is the simplest possible Vue app in a single file" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      main {
+        border: 1px solid hotpink;
+        background-color: pink;
+        padding: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Simplest possible Vue app in a single file</h1>
+      <p>Also visit this implemented in <a href="../react/">React</a> and <a href="../angular/">Angular</a>.
+      <p>See single script file: <code><a href="./script.js" target="_blank">script.js</a></code>.</p>
+      <p>Read more at <a href="https://mortenbarklund.com/blog/simplest-webapp-react-angular-vue">mortenbarklund.com</a>.
+    </header>
+    <main id="root">
+      <increment />
+    </main>
+    <script crossorigin src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

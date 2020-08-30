@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simplest possible React app in a single file</title>
+    <meta name="description" content="This is the simplest possible React app in a single file" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      main {
+        border: 1px solid hotpink;
+        background-color: pink;
+        padding: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Simplest possible React app in a single file</h1>
+      <p>Also visit this implemented in <a href="../angular/">Angular</a> and <a href="../vue/">Vue</a>.
+      <p>See single script file: <code><a href="./script.js" target="_blank">script.js</a></code>.</p>
+      <p>Read more at <a href="https://mortenbarklund.com/blog/simplest-webapp-react-angular-vue">mortenbarklund.com</a>.
+    </header>
+    <main>
+      <div id="root"></div>
+    </main>
+    <script crossorigin src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
+    <script src="./script.js" type="text/babel"></script>
+  </body>
+</html>
