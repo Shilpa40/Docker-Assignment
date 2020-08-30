@@ -5,9 +5,9 @@ A repository for the simplest 1 second HTML web app setup
 
 Set them in action here:
 
-* React: [https://barklund.github.io/simple-webapp/react/](barklund.github.io/simple-webapp/react/)
-* Angular: [https://barklund.github.io/simple-webapp/react/](barklund.github.io/simple-webapp/angular/)
-* Vue: [https://barklund.github.io/simple-webapp/react/](barklund.github.io/simple-webapp/vue/)
+* React: [https://barklund.github.io/simple-webapp/public/react/](barklund.github.io/simple-webapp/public/react/)
+* Angular: [https://barklund.github.io/simple-webapp/public/angular/](barklund.github.io/simple-webapp/public/angular/)
+* Vue: [https://barklund.github.io/simple-webapp/public/vue/](barklund.github.io/simple-webapp/public/vue/)
 
 ## Inspired by
 
